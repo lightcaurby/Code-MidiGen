@@ -18,5 +18,5 @@ Any DAW can be used to send the output MIDI files to the keyboard as part of a r
 Example run:
 
 ```
-C:\git\Code-MidiGen> x64\release\sysexTest.exe -i "example\sydamessani on taivas.song.txt" -o example
+C:\git\Code-MidiGen> x64\release\MidiGen.exe -i "example\sydamessani on taivas.song.txt" -o example
 ```
