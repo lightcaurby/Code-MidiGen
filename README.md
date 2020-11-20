@@ -1,6 +1,6 @@
 # Code-MidiGen
 
-MidiGen is a small commandline tool to generate MIDI files for automating the accompaniment on the Yamaha arrangement keyboards. This project uses the MidiData library from [OpenMIDIProject](https://openmidiproject.osdn.jp/index_en.html).
+MidiGen is a small command line tool to generate MIDI files for automating the accompaniment on the Yamaha arrangement keyboards. This project uses the MidiData library from [OpenMIDIProject](https://openmidiproject.osdn.jp/index_en.html).
 
 The input files have three main parts written in textual format:
 - global settings, such as tempo and transposing 
@@ -13,7 +13,7 @@ The output consists of four MIDI files:
 - <title>_vh.mid for controlling the vocal harmony
 - <title>_chords.mid for controlling the vocal harmony  
 
-Any DAW can be used to send the output MIDI files to the keyboard as part of a recording project. Typically, the keyboard operates in the slave mode while the DAW provides the MIDI master clock. 
+Any DAW can be used to send the output MIDI files to the keyboard as part of a recording project. Typically, the keyboard operates in slave mode while the DAW provides the MIDI master clock. 
 
 Example run:
 
