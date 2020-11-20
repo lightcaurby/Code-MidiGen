@@ -1,0 +1,923 @@
+####################################
+###	OPTIONS
+####################################
+# ElvisSlowRock1b @95 
+
+opt	TITLE	_sydamessani_on_taivas
+opt	TEMPO_BPM	114
+opt	TIME_SIGNATURE_NUMERATOR	4
+opt	TIME_SIGNATURE_DENOMINATOR	4
+opt	TRANSPOSE	2
+opt	MELODY_CHANNEL	1
+opt	MELODY_PATCH	8 56 4
+opt	CHORD_CHANNEL	16
+opt	CHORD_SYSEX_NUDGE	0
+opt	CHORD_NOTES_NUDGE	0
+opt	SECTION_ENDING1_NUDGE	0
+opt	SECTION_NUDGE	0
+opt	TICKS_PER_QUARTER	120
+
+####################################
+###	ACCMP
+####################################
+
+vhx	/2:1:0	Vocals::EffectOn
+vhx	/0:1:0	Vocals::HarmonyOff
+syx	/0:1:0	SectionControl::MainA
+syx	/0:1:0	SectionControl::Intro1
+chd	/0:1:0	A	m	
+syx	/0:1:0	Accompaniment::Start
+chd	/1:1:0	A	m
+syx	/0:1:0	SectionControl::MainA
+chd	/1:1:0	F	
+chd	/1:1:0	E
+chd	/0:3:0	E	7
+chd	/1:1:0	A	m
+chd	/1:1:0	F
+chd	/1:1:0	C
+chd	/1:1:0	D	m
+chd	/1:1:0	E	7sus4
+chd	/1:1:0	E	7
+chd	/1:1:0	A	m
+#chd	/1:1:0	A	m
+syx	/0:1:0	SectionControl::Break
+chd	/1:1:0	A	m
+syx	/0:1:0	SectionControl::MainA
+chd	/1:1:0	D	m	
+chd	/1:1:0	D	m	
+chd	/1:1:0	A	m	
+chd	/1:1:0	F		
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/0:3:0	F		
+chd	/1:1:0	G	sus4	
+chd	/0:3:0	G		
+chd	/1:1:0	A	m	
+chd	/1:1:0	D	m	
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/1:1:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/1:1:0	E	7	
+syx	/0:3:0	SectionControl::FillB
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainB
+chd	/1:1:0	D	m	
+chd	/2:1:0	A	m	
+chd	/1:1:0	F		
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/0:3:0	F		
+chd	/1:1:0	G	sus4	
+chd	/0:3:0	G		
+chd	/1:1:0	A	m	
+chd	/1:1:0	D	m	
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/1:1:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/1:1:0	E	7	
+
+#46
+syx	/0:1:0	SectionControl::FillC
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainC
+chd	/1:1:0	F		
+chd	/1:1:0	E		
+chd	/0:3:0	E	7	
+chd	/1:1:0	A	m	
+#syx	/0:3:0	SectionControl::FillD
+chd	/1:1:0	F		
+#syx	/0:1:0	SectionControl::MainD
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/0:3:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/0:3:0	E	7	
+syx	/0:3:0	SectionControl::FillC
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainC
+chd	/1:1:0	F	
+chd	/1:1:0	D	m6	
+chd	/0:3:0	B	7	
+chd	/1:1:0	E	7	
+#syx	/0:4:0	SectionControl::FillD
+chd	/1:1:0	F		
+#syx	/0:1:0	SectionControl::MainD
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/0:3:0	E	7sus4	
+chd	/0:4:0	E	7	
+chd	/1:1:0	A	m	
+
+#63
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::Break
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainB
+chd	/1:1:0	D	m	
+chd	/2:1:0	A	m	
+chd	/1:1:0	F		
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/0:3:0	F		
+chd	/1:1:0	G	sus4	
+chd	/0:3:0	G		
+chd	/1:1:0	A	m	
+chd	/1:1:0	D	m	
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/1:1:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/1:1:0	E	7	
+syx	/0:1:0	SectionControl::FillC
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainC
+chd	/1:1:0	F		
+chd	/1:1:0	E		
+chd	/0:3:0	E	7	
+chd	/1:1:0	A	m	
+#syx	/0:3:0	SectionControl::FillD
+chd	/1:1:0	F		
+#syx	/0:1:0	SectionControl::MainD
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/0:3:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/0:3:0	E	7	
+syx	/0:3:0	SectionControl::FillC
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainC
+chd	/1:1:0	F	
+chd	/1:1:0	D	m6	
+chd	/0:3:0	B	7	
+chd	/1:1:0	E	7	
+#syx	/0:4:0	SectionControl::FillD
+chd	/1:1:0	F		
+#syx	/0:1:0	SectionControl::MainD
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/0:3:0	E	7sus4	
+chd	/0:4:0	E	7	
+chd	/1:1:0	A	m	
+
+#96
+chd	/1:1:0	A>	m	
+syx	/0:1:0	SectionControl::Break
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainB
+chd	/1:1:0	D	m	
+chd	/2:1:0	A	m	
+chd	/1:1:0	F		
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/0:3:0	F		
+chd	/1:1:0	G	sus4	
+chd	/0:3:0	G		
+chd	/1:1:0	A	m	
+chd	/1:1:0	D	m	
+chd	/1:1:0	G		
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/1:1:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/1:1:0	E	7	
+syx	/0:1:0	SectionControl::FillC
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainC
+chd	/1:1:0	F		
+chd	/1:1:0	E		
+chd	/0:3:0	E	7	
+chd	/1:1:0	A	m	
+#syx	/0:3:0	SectionControl::FillD
+chd	/1:1:0	F		
+#syx	/0:1:0	SectionControl::MainD
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/0:3:0	D	m6	
+chd	/1:1:0	E	7sus4	
+chd	/0:3:0	E	7	
+syx	/0:3:0	SectionControl::FillC
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::MainC
+chd	/1:1:0	F	
+chd	/1:1:0	D	m6	
+chd	/0:3:0	B	7	
+chd	/1:1:0	E	7	
+#syx	/0:4:0	SectionControl::FillD
+chd	/1:1:0	F		
+#syx	/0:1:0	SectionControl::MainD
+chd	/1:1:0	C		
+chd	/1:1:0	D	m	
+chd	/0:3:0	E	7sus4	
+chd	/0:4:0	E	7	
+chd	/1:1:0	A	m	
+chd	/1:1:0	F		
+syx	/0:3:0	SectionControl::FillA
+chd	/1:1:0	D	m	
+syx	/0:1:0	SectionControl::MainA
+chd	/0:3:0	E	7sus4	
+chd	/0:4:0	E	7	
+chd	/1:1:0	A	m	
+syx	/0:1:0	SectionControl::Ending2
+syx	/2:3:0	Accompaniment::Stop
+syx	/0:3:0	SectionControl::MainA
+
+ 
+####################################
+###	MELODY LEAD
+####################################
+
+# intro
+
+not	-	1
+
+not	-	2
+not	-	4
+
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	C+	4
+not	C+	4
+
+not	B	4
+not	A	2
+not	B	8
+not	C+	8
+
+not	B	4
+not	E	4
+not	G#	4
+not	B	4
+
+not	B	4
+not	C+	2
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	4
+
+not	C+	4
+not	G	2
+not	E	8
+not	G	8
+
+not	G	4
+not	F	4
+not	E	4
+not	D	8
+not	E	8
+
+not	E	4	S
+not	B	4
+not	E+	4+
+not	D+	8
+
+not	E+	1
+not	E+	2	S
+
+# verse 1
+
+not	-	4
+not	E	8
+not	E	8
+
+not	E	4
+not	E	8
+not	E	8
+not	E	8	S
+not	E	4+
+
+not	E	4
+not	D	4
+not	-	4
+not	D	8
+not	E	8
+
+not	F	4
+not	F	4
+not	F	4
+not	E	4
+
+not	E	2
+not	-	4
+not	E	8
+not	D	8
+
+not	C	4
+not	C	4
+not	C	4
+not	C	4
+
+not	D	4
+not	D	4
+not	-	4
+not	E	8
+not	F	8
+
+not	G	4
+not	E	4
+not	F	4
+not	E	8
+not	D	8
+
+not	D	2	S
+not	-	4
+not	E	8
+not	E	8
+
+not	E	4
+not	E	8
+not	E	8
+not	E	4	S
+not	E	4
+
+not	E	4
+not	F	4
+not	-	4
+not	A	8
+not	G	8
+
+not	G	4
+not	G	4
+not	G	4
+not	A	8
+not	G	8
+
+not	G	2	S
+not	-	4
+not	E	8
+not	E	8
+
+not	D	8
+not	D	4+
+not	D	4
+not	D	4
+
+not	G	4
+not	F	4
+not	E	8
+not	D	4+
+
+not	E	1
+
+not	E	2	S
+
+# verse 2
+
+not	-	4
+not	E	8
+not	E	8
+
+not	E	8
+not	E	4+
+not	E	8
+not	E	4+
+
+not	E	4
+not	D	4
+not	-	4
+not	D	8
+not	E	8
+
+not	F	4
+not	F	4
+not	F	8
+not	E	4+
+
+not	E	2
+not	-	4
+not	E	8
+not	D	8
+
+not	C	4
+not	C	4
+not	C	8
+not	C	4+
+
+not	D	8
+not	D	4+
+not	-	4
+not	E	8
+not	F	8
+
+not	G	4
+not	E	4
+not	F	4
+not	E	4
+
+not	D	2
+not	-	4
+not	E	8
+not	E	8
+
+not	E	4
+not	E	4
+not	E	4
+not	E	4
+
+not	E	4
+not	F	4
+not	-	4
+not	A	8
+not	G	8
+
+not	G	4
+not	G	4
+not	G	4
+not	A	4
+
+not	G	2
+not	-	4
+not	E	8
+not	E	8
+
+not	D	4
+not	D	4
+not	D	4
+not	D	4
+
+not	G	4+
+not	F	8
+not	E	4
+not	D	4
+
+not	E	1
+
+not	E	2	S
+
+# chorus
+
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	8
+not	C+	8
+not	C+	8	S
+not	C+	4+
+
+not	B	4
+not	A	4
+not	-	4
+not	B	8
+not	C+	8
+
+not	B	4
+not	E	4
+not	G#	4
+not	B	4
+
+not	B	4
+not	C+	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	8
+not	C+	8
+
+not	C+	4	S
+not	G	4
+not	-	4
+not	E	8
+not	G	8
+
+not	G	4
+not	F	4
+not	E	4
+not	D	4
+
+not	D	4
+not	E	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	C+	4
+not	B	4
+
+not	B	4
+not	A	4
+not	-	4
+not	A	8
+not	A	8
+
+not	B	4
+not	B	8
+not	C+	8
+not	C+	4	S
+not	A	4
+
+not	B	2
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	8
+not	C+	8
+
+not	C+	4	S
+not	G	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	B	8
+not	A	8
+not	A	4	S
+not	G#	4
+
+not	A	1
+
+# verse 3
+
+not	-	2
+not	-	4
+not	E	8
+not	E	8
+
+not	E	8
+not	E	4+
+not	E	8
+not	E	4+
+
+not	E	4
+not	D	4
+not	-	4
+not	D	8
+not	E	8
+
+not	F	4
+not	F	4
+not	F	8
+not	E	4+
+
+not	E	2
+not	-	4
+not	E	8
+not	D	8
+
+not	C	4
+not	C	4
+not	C	8
+not	C	4+
+
+not	D	8
+not	D	4+
+not	-	4
+not	E	8
+not	F	8
+
+not	G	4
+not	E	4
+not	F	4
+not	E	4
+
+not	D	2
+not	-	4
+not	E	8
+not	E	8
+
+not	E	4
+not	E	4
+not	E	4
+not	E	4
+
+not	E	4
+not	F	4
+not	-	4
+not	A	8
+not	G	8
+
+not	G	4
+not	G	4
+not	G	4
+not	A	4
+
+not	G	2
+not	-	4
+not	E	8
+not	E	8
+
+not	D	4
+not	D	4
+not	D	4
+not	D	4
+
+not	G	4+
+not	F	8
+not	E	4
+not	D	4
+
+not	E	1
+
+not	E	2	S
+
+# chorus
+
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	8
+not	C+	8
+not	C+	8	S
+not	C+	4+
+
+not	B	4
+not	A	4
+not	-	4
+not	B	8
+not	C+	8
+
+not	B	4
+not	E	4
+not	G#	4
+not	B	4
+
+not	B	4
+not	C+	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	8
+not	C+	8
+
+not	C+	4	S
+not	G	4
+not	-	4
+not	E	8
+not	G	8
+
+not	G	4
+not	F	4
+not	E	4
+not	D	4
+
+not	D	4
+not	E	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	C+	4
+not	B	4
+
+not	B	4
+not	A	4
+not	-	4
+not	A	8
+not	A	8
+
+not	B	4
+not	B	8
+not	C+	8
+not	C+	4	S
+not	A	4
+
+not	B	2
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	8
+not	C+	8
+
+not	C+	4	S
+not	G	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	B	8
+not	A	8
+not	A	4	S
+not	G#	4
+
+not	A	1
+
+# verse 4
+
+not	-	2
+not	-	4
+not	E	8
+not	E	8
+
+not	E	8
+not	E	4+
+not	E	8
+not	E	4+
+
+not	E	4
+not	D	4
+not	-	4
+not	D	8
+not	E	8
+
+not	F	4
+not	F	4
+not	F	8
+not	E	4+
+
+not	E	2
+not	-	4
+not	E	8
+not	D	8
+
+not	C	4
+not	C	4
+not	C	8
+not	C	4+
+
+not	D	8
+not	D	4+
+not	-	4
+not	E	8
+not	F	8
+
+not	G	4
+not	E	4
+not	F	4
+not	E	4
+
+not	D	2
+not	-	4
+not	E	8
+not	E	8
+
+not	E	4
+not	E	4
+not	E	4
+not	E	4
+
+not	E	4
+not	F	4
+not	-	4
+not	A	8
+not	G	8
+
+not	G	4
+not	G	4
+not	G	4
+not	A	4
+
+not	G	2
+not	-	4
+not	E	8
+not	E	8
+
+not	D	4
+not	D	4
+not	D	4
+not	D	4
+
+not	G	4+
+not	F	8
+not	E	4
+not	D	4
+
+not	E	1
+
+not	E	2	S
+
+# chorus
+
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	8
+not	C+	8
+not	C+	8	S
+not	C+	4+
+
+not	B	4
+not	A	4
+not	-	4
+not	B	8
+not	C+	8
+
+not	B	4
+not	E	4
+not	G#	4
+not	B	4
+
+not	B	4
+not	C+	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	8
+not	C+	8
+
+not	C+	4	S
+not	G	4
+not	-	4
+not	E	8
+not	G	8
+
+not	G	4
+not	F	4
+not	E	4
+not	D	4
+
+not	D	4
+not	E	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	C+	4
+not	B	4
+
+not	B	4
+not	A	4
+not	-	4
+not	A	8
+not	A	8
+
+not	B	4
+not	B	8
+not	C+	8
+not	C+	4	S
+not	A	4
+
+not	B	2
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	C+	4
+not	D+	4
+not	C+	8
+not	C+	8
+
+not	C+	4	S
+not	G	4
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	B	8
+not	A	8
+not	A	4	S
+not	G#	4
+
+not	A	1
+
+not	A	2	S
+
+# outro
+
+not	-	4
+not	A	8
+not	B	8
+
+not	C+	4
+not	B	4
+not	A	4
+not	G#	4
+
+not	A	2+
+
+
