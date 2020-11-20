@@ -1,6 +1,6 @@
 # Code-MidiGen
 
-MidiGen is a small commandline tool to generate MIDI files for automating the accompaniment on the Yamaha arrangement keyboards.
+MidiGen is a small commandline tool to generate MIDI files for automating the accompaniment on the Yamaha arrangement keyboards. This project uses the MidiData library from [OpenMIDIProject](https://openmidiproject.osdn.jp/index_en.html).
 
 The input files have three main parts written in textual format:
 - global settings, such as tempo and transposing 
