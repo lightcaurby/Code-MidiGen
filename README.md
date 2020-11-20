@@ -10,10 +10,9 @@ The input files have three main parts written in textual format:
 The output consists of four MIDI files:
 - <title>_accmp.mid for controlling the accompaniment
 - <title>_melody.mid for the reference lead melody
-- <title>_vh.mid for controlling the vocal harmony
-- <title>_chords.mid for controlling the vocal harmony  
+- <title>_vh.mid and <title>_chords.mid for controlling the vocal harmony
 
-Any DAW can be used to send the output MIDI files to the keyboard as part of a recording project. Typically, the keyboard operates in slave mode while the DAW provides the MIDI master clock. 
+Any DAW can be used to send the resulting MIDI files to the arranger keyboard as part of a recording project. Typically, the keyboard operates in slave mode while the DAW provides the MIDI master clock. 
 
 Example run:
 
