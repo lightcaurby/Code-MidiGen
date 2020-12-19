@@ -1364,32 +1364,36 @@ public:
 			}
 			else
 			{
-				long lModulationHere = 0;
-				std::map< CPosition, long >::const_iterator itrMod = s_mapModulations.begin();
-				while(itrMod != s_mapModulations.end())
+				// Are we allowed to modulate?
+				if ( bModulateIfNeeded )
 				{
-					long lTimeForModulation = 0;
-					MIDITrack_MakeTime( m_pMIDITrackMeta,
-						itrMod->first.GetBar() - 1,
-						itrMod->first.GetBeat() - 1,
-						itrMod->first.GetTick(),
-						&lTimeForModulation );
-					if(lTimeForModulation > lTime)
-						break;
-					lModulationHere = itrMod->second;
-					itrMod++;
+					long lModulationHere = 0;
+					std::map< CPosition, long >::const_iterator itrMod = s_mapModulations.begin ();
+					while ( itrMod != s_mapModulations.end () )
+					{
+						long lTimeForModulation = 0;
+						MIDITrack_MakeTime ( m_pMIDITrackMeta,
+							itrMod->first.GetBar () - 1,
+							itrMod->first.GetBeat () - 1,
+							itrMod->first.GetTick (),
+							&lTimeForModulation );
+						if ( lTimeForModulation > lTime )
+							break;
+						lModulationHere = itrMod->second;
+						itrMod++;
+					}
+					if ( lModulationHere != 0 )
+						note.Transpose ( lModulationHere );
 				}
-				if(lModulationHere != 0)
-					note.Transpose( lModulationHere );
 
 				bool bSlurred = false;
-				if(note.IsSlurred())
+				if( note.IsSlurred() )
 				{
 					MIDIEvent* pEvent = MIDITrack_GetLastKindEvent( m_pMIDITrack, MIDIEVENT_NOTEON );
-					if(pEvent &&
+					if( pEvent &&
 						pEvent->m_lLen == 3 &&
 						pEvent->m_pData[ 2 ] == 0 &&
-						pEvent->m_pData[ 1 ] == note.GetKey())
+						pEvent->m_pData[ 1 ] == note.GetKey() )
 					{
 						pEvent->m_lTime += note.GetDurationTicks();
 						bSlurred = true;
